@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding-left: 0;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* 
+   -------------------------
+    Banner part sytle start
+    ------------------------ 
+    */
+  .banner-part {
+    width: 100%;
+    background-color: #2d25a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-logo img {
+    width: 556.01px;
+    height: 438px;
+    margin-top: 100px;
+    margin-right: 40px;
+    margin-bottom: 86px;
+    transform: rotate(0deg);
+    transition: all 2s linear;
+  }
+  .banner-logo:hover img {
+    transform: rotate(8deg);
+  }
+  .banner-text {
+    margin-left: 56px;
+    margin-right: 40px;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  .btn {
+    border: 0;
+    transition: all 1s ease-in-out;
+  }
+  .fa-long-arrow-alt-right {
+    color: white;
+  }
+  .btn a {
+    text-decoration: none;
+    color: white;
+  }
+  .btn {
+    background: linear-gradient(88.33deg, #6dee16 -7.64%, #41dd2291 145.94%);
+    padding: 10px 24px;
+    color: white;
+    border-radius: 10px;
+  }
+  /* 
+  -----------------------------
+  Banner part style end 
+  ----------------------------
+   */
