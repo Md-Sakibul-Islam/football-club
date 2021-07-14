@@ -135,3 +135,58 @@ Player part style start
    ---------------------
     */
   
+/* 
+------------------------------
+footer part style start 
+------------------------------
+ */
+
+.footer-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 483px;
+    height: 213px;
+    margin-left: 340px;
+  }
+  .footer-logo img {
+    width: 100%;
+  }
+  .footer-socical-icon {
+    display: flex;
+    justify-content: center;
+  }
+  .fab {
+    line-height: 39px !important;
+    text-align: center;
+    margin: 0 15px;
+  }
+  .icon {
+    margin-left: 82px;
+  }
+  .fa-facebook-f,
+  .fa-instagram,
+  .fa-twitter,
+  .fa-linkedin,
+  .fa-youtube {
+    color: #969bab;
+    font-size: 15px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(150, 155, 171, 0.5);
+  }
+  .footer-copyright {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400px;
+    text-align: center;
+    margin-left: 90px;
+  }
+  
+  /* 
+  ------------------------------
+  footer part style end 
+  ------------------------------
+   */
+  
