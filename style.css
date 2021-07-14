@@ -104,3 +104,34 @@ Player part style start
   ------------------------------
    */
 
+
+ /* 
+ -----------------------
+ match part style start 
+ ---------------------
+  */
+  .match-part {
+    margin: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .match {
+    border: 2px solid salmon;
+    border-radius: 10px;
+    padding: 4px;
+  }
+  .upcomming {
+    color: salmon;
+  }
+  .match img {
+    width: 90%;
+  }
+  
+  /* 
+   -----------------------
+   match part style end 
+   ---------------------
+    */
+  
