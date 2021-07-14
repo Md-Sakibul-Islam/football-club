@@ -59,3 +59,48 @@
   Banner part style end 
   ----------------------------
    */
+   
+/* 
+------------------------------
+Player part style start 
+------------------------------
+ */
+
+.players-part {
+    width: 100%;
+    margin-top: 70px;
+  }
+  .players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: 80px;
+  }
+  .player {
+    margin-top: 30px;
+    width: 300px;
+    height: 474px;
+    padding: 15px;
+    background: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  }
+  .player img {
+    width: 100%;
+  }
+  .player-name {
+    font-size: 28px;
+    color: #18191f;
+  }
+  .player-info {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: justify;
+    color: #6c6c6c;
+  }
+  
+  /* 
+  ------------------------------
+  Player part style end 
+  ------------------------------
+   */
+
